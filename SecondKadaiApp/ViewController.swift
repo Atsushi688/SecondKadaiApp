@@ -23,7 +23,9 @@ class ViewController: UIViewController {
         resultViewController.name = textlavel.text!
         
     }
-    
+    @IBAction func unwind(_segue: UIStoryboardSegue) {
+        
+    }
     
     
 }

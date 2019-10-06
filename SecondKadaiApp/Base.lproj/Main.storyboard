@@ -78,7 +78,7 @@
                                 <rect key="frame" x="180" y="274" width="54" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="wbb-rk-GDs"/>
+                                    <segue destination="IGf-ki-LwH" kind="unwind" unwindAction="unwindWith_segue:" id="sPs-za-rlI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -98,6 +98,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbt-rU-sQe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="IGf-ki-LwH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="900.00000000000011" y="22.767857142857142"/>
         </scene>
